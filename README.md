@@ -19,8 +19,8 @@ Provide a robust, reusable database for decision-support analyses of actor and f
 
 Purpose:
 
-quality_class: Defines a classification of actors' performances based on film ratings.
-actors: A composite type representing a movie and its properties, used to store movies in an easily manipulated structure.
+ - quality_class: Defines a classification of actors' performances based on film ratings.
+ - actors: A composite type representing a movie and its properties, used to store movies in an easily manipulated structure.
 
 2. Creating the main film table
 
@@ -31,10 +31,10 @@ Purpose:
 
 To store data on actors, their films and their performances in a structured format.
 Key columns:
-actors: Contains the list of films associated with each actor.
-quality_class: Performance class derived from ratings.
-is_active: Indicates whether the actor is active in the film industry.
-year: Reference year for the activity.
+ - actors: Contains the list of films associated with each actor.
+ - quality_class: Performance class derived from ratings.
+ - is_active: Indicates whether the actor is active in the film industry.
+ - year: Reference year for the activity.
 
 3. Inserting data in films
 
@@ -42,10 +42,10 @@ year: Reference year for the activity.
 
 
 Transformation of source data to :
-- Calculate the performance classification (quality_class).
-- Group the films in a table by actor.
-- Determine whether the actor is active (is_active).
-- Insert into films while avoiding duplication with ON CONFLICT.
+ - Calculate the performance classification (quality_class).
+ - Group the films in a table by actor.
+ - Determine whether the actor is active (is_active).
+ - Insert into films while avoiding duplication with ON CONFLICT.
 
 4. Create the actors_history_scd table
 
@@ -53,8 +53,8 @@ Transformation of source data to :
 
 Purpose:
 
-To track the evolution of player data and their performance over time.
-The start_date and end_date columns define the data validity periods, implementing a SCD Type 2 model.
+  - To track the evolution of player data and their performance over time.
+  - The start_date and end_date columns define the data validity periods, implementing a SCD Type 2 model.
 
 5. Inserting data into actors_history_scd
 
@@ -64,9 +64,9 @@ The start_date and end_date columns define the data validity periods, implementi
 
 Details :
 
-Data retrieval from films.
-Aggregation of periods (start_date, end_date) for each actor.
-Insertion of data in actors_history_scd to enable historical tracking of performances.
+  - Data retrieval from films.
+  - Aggregation of periods (start_date, end_date) for each actor.
+  - Insertion of data in actors_history_scd to enable historical tracking of performances.
 
 ## Impact of the project
 
