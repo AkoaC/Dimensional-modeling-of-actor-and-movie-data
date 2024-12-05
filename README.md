@@ -83,3 +83,9 @@ Details :
 3 - Automation and flexibility :
   - SQL scripts make it easy to integrate new data sets.
   - The model can be extended to include other metrics or dimensions.
+
+
+## Technologies Utilisées
+PostgreSQL : Base de données relationnelle pour stocker et organiser les données.
+DBeaver : Outil de gestion de base de données pour interagir avec PostgreSQL.
+SQL : Langage pour la création de tables, l'insertion des données, et la modélisation dimensionnelle.
