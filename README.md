@@ -2,7 +2,7 @@
 
 This project illustrates the implementation of complete dimensional modelling, incorporating advanced concepts such as performance classification, historical data tracking and management of slowly evolving dimensions (SCD Type 2). Designed for the storage and analysis of complex data relating to players and their films, this project is based on a set of SQL scripts carefully architected to guarantee the robustness and flexibility of the data systems.
 
-<h2> Aim of the project </h2>
+<h2> Purpose of the project </h2>
 
 
 Transform and organise the raw data from an actor_films dataset into a well-defined SQL structure, optimised for analysis.
