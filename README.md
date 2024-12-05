@@ -1,4 +1,4 @@
-# Dimensional-modeling-of-actor-and-movie-data
+#  Dimensional Modelling of Actor and Film Data
 
 This project illustrates the implementation of complete dimensional modelling, incorporating advanced concepts such as performance classification, historical data tracking and management of slowly evolving dimensions (SCD Type 2). Designed for the storage and analysis of complex data relating to players and their films, this project is based on a set of SQL scripts carefully architected to guarantee the robustness and flexibility of the data systems.
 
@@ -83,7 +83,6 @@ Details :
 3 - Automation and flexibility :
   - SQL scripts make it easy to integrate new data sets.
   - The model can be extended to include other metrics or dimensions.
-
 
 ## Technologies Utilisées
 
