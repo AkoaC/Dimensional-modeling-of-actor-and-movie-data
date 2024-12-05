@@ -84,8 +84,8 @@ Details :
   - SQL scripts make it easy to integrate new data sets.
   - The model can be extended to include other metrics or dimensions.
 
-## Technologies Utilisées
+## Technologies used
 
-  - SQL : Langage pour la création de tables, l'insertion des données, et la modélisation dimensionnelle.
-  - PostgreSQL : Base de données relationnelle pour stocker et organiser les données.
-  - DBeaver : Outil de gestion de base de données pour interagir avec PostgreSQL.
+  - SQL : Language for creating tables, inserting data and dimensional modelling
+  - PostgreSQL : Relational database for storing and organising data.
+  - DBeaver: Database management tool for interacting with PostgreSQL.
