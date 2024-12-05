@@ -8,7 +8,7 @@ This project illustrates the implementation of complete dimensional modelling, i
 Transform and organise the raw data from an actor_films dataset into a well-defined SQL structure, optimised for analysis.
 Classify actor performance according to the quality of the associated films.
 Track historical changes in the data using slow-changing dimension management (SCD Type 2).
-Provide a robust, reusable database for decision-support analyses of actor and film performance.
+Provide a robust, reusable database for decision-support analyses of actor and film performance. </br>
 
 <h2> Description of the steps </h2>
 
@@ -20,7 +20,7 @@ Provide a robust, reusable database for decision-support analyses of actor and f
 Purpose:
 
  - quality_class: Defines a classification of actors' performances based on film ratings.
- - actors: A composite type representing a movie and its properties, used to store movies in an easily manipulated structure.
+ - actors: A composite type representing a movie and its properties, used to store movies in an easily manipulated structure. </br>
 
 2. Creating the main film table
 
@@ -34,7 +34,7 @@ Key columns:
  - actors: Contains the list of films associated with each actor.
  - quality_class: Performance class derived from ratings.
  - is_active: Indicates whether the actor is active in the film industry.
- - year: Reference year for the activity.
+ - year: Reference year for the activity. </br>
 
 3. Inserting data in films
 
@@ -45,7 +45,7 @@ Transformation of source data to :
  - Calculate the performance classification (quality_class).
  - Group the films in a table by actor.
  - Determine whether the actor is active (is_active).
- - Insert into films while avoiding duplication with ON CONFLICT.
+ - Insert into films while avoiding duplication with ON CONFLICT. </br>
 
 4. Create the actors_history_scd table
 
@@ -54,7 +54,7 @@ Transformation of source data to :
 Purpose:
 
   - To track the evolution of player data and their performance over time.
-  - The start_date and end_date columns define the data validity periods, implementing a SCD Type 2 model.
+  - The start_date and end_date columns define the data validity periods, implementing a SCD Type 2 model. </br>
 
 5. Inserting data into actors_history_scd
 
