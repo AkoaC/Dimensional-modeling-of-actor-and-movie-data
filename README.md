@@ -68,7 +68,7 @@ Data retrieval from films.
 Aggregation of periods (start_date, end_date) for each actor.
 Insertion of data in actors_history_scd to enable historical tracking of performances.
 
-#Impact of the project
+## Impact of the project
 
 1 - Robust and scalable modelling:
  
