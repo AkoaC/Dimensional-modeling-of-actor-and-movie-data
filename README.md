@@ -25,7 +25,7 @@ Purpose:
 2. Creating the main film table
 
 
-![image](https://github.com/user-attachments/assets/b3c92de9-4f5e-4f43-bd38-03f26b93fd2d)
+![image](https://github.com/user-attachments/assets/b4f5eded-22ac-4dde-8798-509aa9a3a74b)
 
 Purpose:
 
@@ -38,7 +38,7 @@ Key columns:
 
 3. Inserting data in films
 
-![image](https://github.com/user-attachments/assets/29c7f5b0-812a-4c19-ad2f-57d681994c2b)
+![image](https://github.com/user-attachments/assets/b3c92de9-4f5e-4f43-bd38-03f26b93fd2d)
 
 
 Transformation of source data to :
